@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            border: 2px solid black;
+            background-image: linear-gradient(rgb(94, 94, 94), #242323, #1b1b1b, #242323, #242323);
+            width: 30%;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"><img src="play.svg" alt="" class="abc"></div>
+    <script>
+        let img = document.getElementsByClassName('abc')
+        img.addEventListener('click', function() {
+            img.src = 'pause.svg'
+        })
+    </script>
+</body>
+</html>
