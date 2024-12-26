@@ -5,7 +5,7 @@ let temp = 1
 let duration
 
 async function getsong() {
-    const ls = await fetch('https://github.com/Tanishq242/Spotify_clone/songs/')
+    const ls = await fetch('https://github.com/Tanishq242/Spotify_clone/blob/main/songs/Abhi%20Toh%20Party%20Shuru%20Hui%20Hai%20(Khoobsurat)-(PagalWorld.Ink).mp3')
     const response = await ls.text()
     let div = document.createElement('div')
     div.innerHTML = response
