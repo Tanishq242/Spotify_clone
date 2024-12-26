@@ -5,7 +5,7 @@ let temp = 1
 let duration
 
 async function getsong() {
-    const ls = await fetch('http://127.0.0.1:3000/songs/')
+    const ls = await fetch('https://github.com/Tanishq242/Spotify_clone/songs/')
     const response = await ls.text()
     let div = document.createElement('div')
     div.innerHTML = response
